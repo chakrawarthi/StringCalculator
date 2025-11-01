@@ -1,0 +1,18 @@
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/home/chakravarthi/.rvm/rubies/ruby-3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251101-19916-myocng sitelibdir\=./.gem.20251101-19916-myocng clean
+
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251101-19916-myocng sitelibdir\=./.gem.20251101-19916-myocng
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251101-19916-myocng sitelibdir\=./.gem.20251101-19916-myocng install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20251101-19916-myocng
+
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20251101-19916-myocng sitelibdir\=./.gem.20251101-19916-myocng clean

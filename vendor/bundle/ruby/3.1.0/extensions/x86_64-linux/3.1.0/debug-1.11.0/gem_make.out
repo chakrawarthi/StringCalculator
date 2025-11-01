@@ -1,0 +1,19 @@
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+/home/chakravarthi/.rvm/rubies/ruby-3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251101-19916-ye4cdf sitelibdir\=./.gem.20251101-19916-ye4cdf clean
+
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251101-19916-ye4cdf sitelibdir\=./.gem.20251101-19916-ye4cdf
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251101-19916-ye4cdf sitelibdir\=./.gem.20251101-19916-ye4cdf install
+/usr/bin/install -m 0755 debug.so ./.gem.20251101-19916-ye4cdf/debug
+
+current directory: /home/chakravarthi/incubyte/StringCalculaterTdd/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251101-19916-ye4cdf sitelibdir\=./.gem.20251101-19916-ye4cdf clean
