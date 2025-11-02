@@ -4,14 +4,14 @@ class StringCalculator
 		@count = 0
 	end
 
-	def add(string)
+	def add(string = " ")
 
 		@count +=1
 
 		return 0 if string.empty?
 
 		delimiter = ","
-		
+
 		if string.start_with?("//")
     	header, string = string.split("\n", 2)
     	delimiter = header[2..-1]
