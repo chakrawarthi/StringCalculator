@@ -96,4 +96,29 @@ RSpec.describe StringCalculator do
       expect(@calculator.add("1, 2,3")).to eq(6)
     end
   end
+  describe "Reject numbers more then 1000" do 
+    it "return the only sum of those numbers which are less then 1000" do 
+      expect(@calculator.add("1,2,3,10001")).to eq(6)
+    end
+  end
+  describe "when custom delimiters of any length are provided" do
+    it "handles long single delimiter like //[***]\\n1***2***3" do
+      expect(@calculator.add("//[***]\n1***2***3")).to eq(6)
+    end
+  end
+
+  describe "when multiple custom delimiters are provided" do
+    it "handles multiple single-character delimiters //[ * ][ % ]" do
+      expect(@calculator.add("//[*][%]\n1*2%3")).to eq(6)
+    end
+
+    it "handles multiple long delimiters //[ ** ][ %% ]" do
+      expect(@calculator.add("//[**][%%]\n1**2%%3")).to eq(6)
+    end
+  end
+  describe "when numbers greater than 1000 appear with delimiters" do
+    it "ignores numbers > 1000 even when using custom delimiters" do
+      expect(@calculator.add("//;\n5;1001;3")).to eq(8)
+    end
+  end
 end
