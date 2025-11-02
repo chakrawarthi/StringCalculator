@@ -4,11 +4,11 @@ class StringCalculator
 		@count = 0
 	end
 
-	def add(string = " ")
+	def add(string = "")
 
 		@count +=1
 
-		return 0 if string.empty?
+		return 0 if string.nil? || string.empty?
 
 		delimiter = ","
 
